@@ -55,8 +55,8 @@ window.addEventListener("scroll",function(){
 // ScrollReveal().reveal('.btn-box,.read', { origin: 'top' });
 
 const sr = ScrollReveal({
-    distance: '45px',
-    duration: 2000,
+    distance: '30px',
+    duration: 1500,
     reset: true
 })
 sr.reveal('.btn-box ,.academics',{delay:350,origin:'bottom'})
