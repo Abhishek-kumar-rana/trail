@@ -60,8 +60,8 @@ const sr = ScrollReveal({
     reset: true
 })
 sr.reveal('.btn-box ,.academics',{delay:350,origin:'bottom'})
-sr.reveal('.about-img,.ctr1,.row2',{delay:350,origin:'left'})
-sr.reveal('.about-img, .ctr2',{delay:350,origin:'right'})
+sr.reveal('.about-img,.ctr2',{delay:350,origin:'left'})
+sr.reveal('.about-img, .ctr1',{delay:350,origin:'right'})
 sr.reveal('.row1',{delay:350,origin:'bottom'})
 sr.reveal('.row2',{delay:350,origin:'top'})
 
