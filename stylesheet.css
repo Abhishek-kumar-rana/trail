@@ -441,12 +441,13 @@ body {
 .about-text p {
     padding: 20px 20px;
     color: aliceblue;
+    font-style: italic;
     font: 20px;
     line-height: 1.5;
     margin-bottom: 4rem;
 }
 
-@media (max-width:480px) {
+@media (max-width:680px) {
     .about {
         /* margin-top: 150px; */
 
@@ -480,6 +481,14 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .about-text h4 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.7;
+        margin: 15px 30px;
     }
 
     .about-btn {}
@@ -552,6 +561,7 @@ body {
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+    
 }
 
 .read {
@@ -679,7 +689,7 @@ body {
 .css span {
     background: #00eeff;
     /* CSS color */
-    width: 65%;
+    width: 35%;
 }
 
 .javascript span {
@@ -697,7 +707,7 @@ body {
 .c-plus-plus span {
     background: #00eeff;
     /* C/C++ color */
-    width: 89%;
+    width: 79%;
 }
 
 .java span {
@@ -809,7 +819,7 @@ body {
     animation: animate-bar 1s 1s linear forwards;
 }
 
-@media (max-width:460px) {
+@media (max-width:760px) {
     .radial-bars {
         /* margin-top: 68px; */
         display: grid;
@@ -941,8 +951,8 @@ svg {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(459px, auto));
-    /* gap: 1rem; */
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 1rem;
     justify-content: space-evenly;
 }
 
