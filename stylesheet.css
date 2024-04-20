@@ -79,9 +79,7 @@ body {
 }
 
 .navbar a {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* display: none; */
+    
     font-size: 25px;
     color: #fff;
     text-decoration: none;
@@ -548,10 +546,10 @@ body {
         1px 1px 40px #012290f7;
 }
 
-/* .academics:hover{
-    will-change: transform;
-    transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
-} */
+.services-list div:hover{
+    /* background: #000; */
+    transform: translateY(-15px);
+}
 
 .services-list div i {
     font-size: 50px;
@@ -599,7 +597,7 @@ body {
 .services-list div:hover {
     /* transform: translateY(-10px); */
     /* will-change: transfornm; */
-    transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+    /* transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05); */
 }
 
 
@@ -1108,9 +1106,9 @@ svg {
     margin: 10px;
 }
 
-.contactli a:hover {
+.contact-list li i:hover {
     transform: scale(1.01) translateY(-5px);
-    color: #0ef;
+    color: rgb(21, 147, 92);
 }
 
 .contact-icons {
