@@ -542,8 +542,8 @@ body {
     font-weight: 13px;
     border-radius: 10px;
     transition: background 0.5s transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #012290f7;
+    box-shadow: 1px 1px 20px #26A65B,
+        1px 1px 40px #26A65B;
 }
 
 .services-list div:hover{
@@ -551,6 +551,7 @@ body {
     transform: translateY(-15px);
     background-color: #26A65B;
     color:black;
+    transition: transform 0.5s ease-out;
 }
 
 .services-list div i {
