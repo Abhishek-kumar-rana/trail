@@ -549,6 +549,8 @@ body {
 .services-list div:hover{
     /* background: #000; */
     transform: translateY(-15px);
+    background-color: #26A65B;
+    color:black;
 }
 
 .services-list div i {
